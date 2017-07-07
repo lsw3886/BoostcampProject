@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\profile2.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\profile2.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\plane.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\plane.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\paperplane.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\paperplane.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\paperplane2.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\paperplane2.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\paper.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\paper.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\profile1.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\profile1.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\profile3.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\profile3.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    }
+]

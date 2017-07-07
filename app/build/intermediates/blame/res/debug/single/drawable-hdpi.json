@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\arrow.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab1.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\tab1.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_name.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\message.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\share.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\share.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\liketext.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\liketext.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab3.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\tab3.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_search.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\camera.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab2.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\tab2.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\like.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\like.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\comment.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\comment.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\paperplane.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\paperplane.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tab4.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\tab4.png"
+    }
+]

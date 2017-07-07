@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\profile1.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\profile1.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\paper.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\paper.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\paperplane.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\paperplane.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\profile3.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\profile3.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\paperplane2.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\paperplane2.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\profile2.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\profile2.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\plane.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\plane.png"
+    }
+]
