@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -54,9 +55,9 @@ public class BlankFragment extends Fragment {
 
         adapter = new PostAdapter(getActivity());
         Post_List.setAdapter(adapter);
-
-        FragmentActivity FragmentAC = getActivity();
-
+        DividerItemDecoration divider = new DividerItemDecoration(Post_List.getContext(), DividerItemDecoration.VERTICAL);
+        divider.setDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.my_custom_divider));
+        Post_List.addItemDecoration(divider);
         return view;
     }
 

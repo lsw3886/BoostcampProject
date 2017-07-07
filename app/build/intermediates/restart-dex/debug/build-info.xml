@@ -6,26 +6,26 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1499408725756"
+    timestamp="1499413130708"
     token="-6033483436625007310"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="867" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="105" />
+        duration="0" />
     <task
         name="verifier"
-        duration="28" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
+        location="C:\Users\lsw38\MyApplication\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499405264713"
+        timestamp="1499411309413"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -78,22 +78,22 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499406088107"
+        timestamp="1499412546858"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\lsw38\MyApplication\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499408725756"
+        timestamp="1499413130708"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
+            location="C:\Users\lsw38\MyApplication\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

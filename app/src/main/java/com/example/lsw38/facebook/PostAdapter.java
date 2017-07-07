@@ -27,7 +27,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
     String[] PostDate = {"7월 4일 오후 3:01 * ", "7월 2일 오후 2:01 *", "6월 15일 오전 2:58 *" };
     int[] images = {R.drawable.nogari, R.drawable.yuk, R.drawable.ramen};
     int[] ProfileImages = {R.mipmap.profile1, R.mipmap.profile2, R.mipmap.profile3};
+    String[] CommentCount = {"댓글 24개", "댓글 97개 공유 181회", "공유 19회"};
     Context mContext;
+
     public PostAdapter(Context context) {
         mContext = context;
     }
@@ -43,6 +45,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
         holder.postDate.setText(PostDate[position]);
         holder.postImage.setImageResource(images[position]);
         holder.profileImage.setImageResource(ProfileImages[position]);
+        holder.countComment.setText(CommentCount[position]);
         holder.likeBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -71,6 +74,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
         LinearLayout postItemLayout;
         TextView postUserName;
         TextView postDate;
+        TextView countComment;
         ImageView postImage;
         ImageView profileImage;
         Button likeBtn;
@@ -87,6 +91,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
             likeBtn = (Button) itemView.findViewById(R.id.likebtn);
             commentBtn = (Button) itemView.findViewById(R.id.commentbtn);
             shareBtn = (Button) itemView.findViewById(R.id.sharebtn);
+            countComment = (TextView) itemView.findViewById(R.id.count_comment);
         }
 
     }
