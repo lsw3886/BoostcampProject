@@ -16,12 +16,24 @@
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\paperplane.png"
     },
     {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\commenticon.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\commenticon.png"
+    },
+    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\share.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\share.png"
     },
     {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\likeicon.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\likeicon.png"
+    },
+    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab4.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\tab4.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shareicon.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xhdpi\\shareicon.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_search.png",

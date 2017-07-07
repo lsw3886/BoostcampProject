@@ -23,7 +23,7 @@
                 <ImageButton
                     android:layout_width="55dp"
                     android:layout_height="55dp"
-
+                    android:id="@+id/camerabtn"
                     android:src="@drawable/camera"
                     android:background="#00000000"
 
@@ -45,6 +45,7 @@
                     android:layout_height="55dp"
                     android:src="@drawable/message"
                     android:background="#00000000"
+                    android:id="@+id/messagebtn"
 
                     />
 

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
@@ -24,28 +24,28 @@
         "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
         "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
         "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",

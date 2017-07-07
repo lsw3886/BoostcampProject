@@ -8,7 +8,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TableLayout;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,11 +25,25 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
+        ImageButton cameraBtn = (ImageButton) findViewById(R.id.camerabtn);
+        cameraBtn.setOnClickListener(new View.OnClickListener(){
 
+
+            public void onClick(View v){
+                Toast.makeText(MainActivity.this, "카메라 기능을 시작합니다.", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageButton messageBtn = (ImageButton) findViewById(R.id.messagebtn);
+        messageBtn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Toast.makeText(MainActivity.this, "메신저를 실행합니다.", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#3b589a"));
-       TabPageAdapter tabPageAdapter = new TabPageAdapter(getSupportFragmentManager());
+        TabPageAdapter tabPageAdapter = new TabPageAdapter(getSupportFragmentManager());
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(tabPageAdapter);

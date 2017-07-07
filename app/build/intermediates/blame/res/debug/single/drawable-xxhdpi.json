@@ -12,6 +12,10 @@
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\comment.png"
     },
     {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\likeicon.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\likeicon.png"
+    },
+    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\like.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\like.png"
     },
@@ -32,6 +36,10 @@
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\share.png"
     },
     {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\shareicon.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\shareicon.png"
+    },
+    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\message.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\message.png"
     },
@@ -46,6 +54,10 @@
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tab3.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\tab3.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\commenticon.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable-xxhdpi\\commenticon.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_action_name.png",

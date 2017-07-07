@@ -14,8 +14,9 @@
             android:id="@+id/profile_pic"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:scaleType="fitStart"
             android:layout_weight="1"
-            android:src="@drawable/camera" />
+            />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -77,6 +78,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
         android:background="@android:color/darker_gray"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -84,29 +86,46 @@
         android:layout_marginRight="16dp"
         android:orientation="horizontal"
         android:weightSum="3">
-        <ImageButton
+        <Button
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/liketext"
+            android:layout_height="30dp"
+            android:drawableLeft="@drawable/likeicon"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:background="#00000000"
-            android:scaleType="fitCenter"
-            android:layout_weight="1"/>
-        <ImageButton
+            android:text="@string/like"
+            android:textColor="#838383"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/likebtn"/>
+        <Button
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/comment"
+            android:layout_height="30dp"
+            android:drawableLeft="@drawable/commenticon"
+            android:layout_gravity="center"
             android:background="#00000000"
-            android:layout_weight="1"/>
+            android:text="@string/comment"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#838383"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/commentbtn"/>
 
-        <ImageButton
+        <Button
             android:layout_width="0dp"
-            android:scaleType="fitCenter"
-            android:layout_height="match_parent"
-
+            android:layout_height="30dp"
+            android:drawableLeft = "@drawable/shareicon"
             android:background="#00000000"
-            android:src="@drawable/share"
-            android:layout_weight="1"/>
+            android:text="@string/share"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#838383"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/sharebtn"/>
 
 
     </LinearLayout>
