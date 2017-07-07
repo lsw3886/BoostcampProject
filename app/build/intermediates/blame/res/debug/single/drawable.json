@@ -16,12 +16,12 @@
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\drawable\\nogari.PNG"
     },
     {
-        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\lsw38\\.android\\build-cache\\00961cdc0ca1195fb15985afe18c3754a105d89b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",

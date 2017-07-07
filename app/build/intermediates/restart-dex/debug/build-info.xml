@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1499413130708"
+    timestamp="1499420003346"
     token="-6033483436625007310"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,8 +29,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1499398944451"
+        timestamp="1499419815104"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\lsw38\MyApplication\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -64,32 +67,10 @@
         <artifact
             location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\lsw38\MyApplication\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499411309413"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1499412546858"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\lsw38\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1499413130708"
+        timestamp="1499420003346"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\lsw38\MyApplication\app\build\outputs\apk\app-debug.apk"

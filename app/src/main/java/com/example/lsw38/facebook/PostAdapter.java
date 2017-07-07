@@ -36,38 +36,54 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
 
     @Override
     public PostAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.post_item, null);
-        return new ViewHolder(v);
+        if(viewType == 0){
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.second_header, null);
+            return new ViewHolder(v);
+        }else{
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.post_item, null);
+            return new ViewHolder(v);
+        }
+
     }
     @Override
     public void onBindViewHolder(PostAdapter.ViewHolder holder, int position){
-        holder.postUserName.setText(PostNames[position]);
-        holder.postDate.setText(PostDate[position]);
-        holder.postImage.setImageResource(images[position]);
-        holder.profileImage.setImageResource(ProfileImages[position]);
-        holder.countComment.setText(CommentCount[position]);
-        holder.likeBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Toast.makeText(mContext, "좋아요", Toast.LENGTH_SHORT ).show();
-            }
-        });
-        holder.commentBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Toast.makeText(mContext, "댓글달래요.", Toast.LENGTH_SHORT ).show();
-            }
-        });
-        holder.shareBtn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Toast.makeText(mContext, "공유할래요", Toast.LENGTH_SHORT ).show();
-            }
-        });
+        if(position != 0) {
+            holder.postUserName.setText(PostNames[position-1]);
+            holder.postDate.setText(PostDate[position-1]);
+            holder.postImage.setImageResource(images[position-1]);
+            holder.profileImage.setImageResource(ProfileImages[position-1]);
+            holder.countComment.setText(CommentCount[position-1]);
+            holder.likeBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(mContext, "좋아요", Toast.LENGTH_SHORT).show();
+                }
+            });
+            holder.commentBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(mContext, "댓글달래요.", Toast.LENGTH_SHORT).show();
+                }
+            });
+            holder.shareBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(mContext, "공유할래요", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
     }
     @Override
     public int getItemCount(){
-        return PostNames.length;
+        return (PostNames.length+1);
+    }
+    public class ViewHolderSecond extends RecyclerView.ViewHolder{
+        LinearLayout SecondHeader;
+        public ViewHolderSecond(View view){
+            super(view);
+            SecondHeader = (LinearLayout) view.findViewById(R.id.second_header);
+
+        }
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -94,5 +110,13 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
             countComment = (TextView) itemView.findViewById(R.id.count_comment);
         }
 
+    }
+    @Override
+    public int getItemViewType(int position){
+        if(position == 0){
+            return 0;
+        }else{
+        return 1;
+        }
     }
 }
