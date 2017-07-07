@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="5dp"
+    android:id="@+id/first_header"
+    android:orientation="horizontal">
+    
+    
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:drawableTop="@mipmap/paperplane"
+        android:drawablePadding="-10dp"
+        android:background="#00000000"
+
+        android:text="메세지"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DBDBE3" />
+
+
+</LinearLayout>

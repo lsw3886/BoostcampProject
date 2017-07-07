@@ -5,6 +5,7 @@ import android.media.Image;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.view.menu.MenuView;
 import android.support.v7.widget.RecyclerView;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,9 +38,13 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
     @Override
     public PostAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
         if(viewType == 0){
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.first_header, null);
+            return new ViewHolder(v);
+        }else if(viewType == 1){
             View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.second_header, null);
             return new ViewHolder(v);
-        }else{
+        }
+        else{
             View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.post_item, null);
             return new ViewHolder(v);
         }
@@ -47,12 +52,12 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
     }
     @Override
     public void onBindViewHolder(PostAdapter.ViewHolder holder, int position){
-        if(position != 0) {
-            holder.postUserName.setText(PostNames[position-1]);
-            holder.postDate.setText(PostDate[position-1]);
-            holder.postImage.setImageResource(images[position-1]);
-            holder.profileImage.setImageResource(ProfileImages[position-1]);
-            holder.countComment.setText(CommentCount[position-1]);
+        if(position > 1) {
+            holder.postUserName.setText(PostNames[position-2]);
+            holder.postDate.setText(PostDate[position-2]);
+            holder.postImage.setImageResource(images[position-2]);
+            holder.profileImage.setImageResource(ProfileImages[position-2]);
+            holder.countComment.setText(CommentCount[position-2]);
             holder.likeBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -75,7 +80,14 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
     }
     @Override
     public int getItemCount(){
-        return (PostNames.length+1);
+        return (PostNames.length+2);
+    }
+    public class ViewHolderFirst extends RecyclerView.ViewHolder{
+        LinearLayout FirstHeader;
+        public ViewHolderFirst(View view){
+            super(view);
+            FirstHeader = (LinearLayout) view.findViewById(R.id.first_header);
+        }
     }
     public class ViewHolderSecond extends RecyclerView.ViewHolder{
         LinearLayout SecondHeader;
@@ -115,8 +127,10 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
     public int getItemViewType(int position){
         if(position == 0){
             return 0;
+        }else if(position == 1){
+            return 1;
         }else{
-        return 1;
+            return 2;
         }
     }
 }
