@@ -12,8 +12,16 @@
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\story.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\story.png"
+    },
+    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\profile1.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\profile1.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\circleprofile.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\circleprofile.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\paper.png",

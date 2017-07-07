@@ -16,8 +16,16 @@
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\paperplane.png"
     },
     {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\story.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\story.png"
+    },
+    {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\profile3.png",
         "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\profile3.png"
+    },
+    {
+        "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\circleprofile.png",
+        "source": "C:\\Users\\lsw38\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\circleprofile.png"
     },
     {
         "merged": "C:\\Users\\lsw38\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\paperplane2.png",
